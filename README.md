@@ -114,8 +114,6 @@ cat trace
 echo nop > current_tracer
 ```
 
----
-
 #### TIP
 
 특정 함수만 추적하려면 다음처럼 한다:
