@@ -69,6 +69,11 @@ qemu-system-aarch64 \
 - `-s`: GDB 서버를 열어 포트 1234에서 대기  
 - `-S`: QEMU를 pause 상태로 시작하여 GDB 연결을 대기한다
 
+GDB 설치
+```bash
+sudo apt install gdb-multiarch
+```
+
 다른 터미널에서 GDB 실행:
 
 ```bash
