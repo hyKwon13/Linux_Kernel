@@ -41,6 +41,11 @@ make -j$(nproc)
 
 ## 2. QEMU + GDB 설정 (디버깅용)
 
+QEMU가 설치
+```bash
+sudo apt install qemu-system-arm qemu-system-misc qemu-system-aarch64
+```
+
 QEMU가 설치되어 있는지 확인한다:
 
 ```bash
