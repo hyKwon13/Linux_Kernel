@@ -26,12 +26,16 @@ cd linux
 
 ```bash
 make defconfig
+# 또는 ARM64용이라면
+make ARCH=arm64 defconfig
 ```
 
 커널 컴파일:
 
 ```bash
 make -j$(nproc)
+# 또는 ARM64용이라면
+make ARCH=arm64 -j$(nproc)
 ```
 
 → `arch/arm64/boot/Image` 파일이 생성된다.  
